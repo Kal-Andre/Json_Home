@@ -1,3 +1,4 @@
+# This program is to read the info in the json file
 import json
 
 filePath = '/home/pc/Desktop/Projects/JSON.py/beginner/data.json'
@@ -5,6 +6,7 @@ with open(filePath, 'r') as file:
     data = json.load(file)
     #print(data)
 
+    #initializing the list where this data is gonna be stored.
     real_data = []
     for person in data['people']:
         name = person['name']
