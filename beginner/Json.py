@@ -12,7 +12,7 @@ with open(filePath, 'r') as file:
         name = person['name']
         age = person['age']
         real_data.append((name, age))
-
-        for name, age in real_data:
-            print(f"Name: {name}, Age: {age}")
+        print(real_data)
+        #for name, age in real_data:
+         #   print(f"Name: {name}, Age: {age}")
         
