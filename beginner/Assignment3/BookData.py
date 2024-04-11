@@ -15,3 +15,6 @@ books = bookInfo['Books']
 
 for book in books:
     print(book)
+
+# for total number of books
+print(len(books))
