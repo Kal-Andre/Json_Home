@@ -13,8 +13,15 @@ with open(path2json, "r") as file:
 # JSON key 'Books' represented in a list.
 books = bookInfo['Books']
 
-for book in books:
-    print(book)
-
 # for total number of books
-print(len(books))
+total = len(books)
+print(total)
+
+# average year of publication
+    # we used list comprehension to attain the year values.
+years = [book['Year'] for book in books]
+print(years)
+
+total_sum = sum(years)
+avg = total_sum/total
+print(avg)
