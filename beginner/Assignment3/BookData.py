@@ -24,4 +24,4 @@ print(years)
 
 total_sum = sum(years)
 avg = total_sum/total
-print(avg)
+print(int(avg))
