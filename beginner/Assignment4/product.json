@@ -1,0 +1,13 @@
+{
+    "products": [
+        {"name": "SunQuick", "price": 210000, "category": "Juice"},
+        {"name": "Olitalia", "price": 30000, "category": "Grocery"},
+        {"name": "Doritos", "price": 2500, "category": "Snacks"},
+        {"name": "Delmonte", "price": 9500, "category": "Juice"},
+        {"name": "Omo", "price": 6500, "category": "Detergent"},
+        {"name": "Sumz", "price": 3200, "category": "Snacks"},
+        {"name": "Heinz Ketchup", "price": 15000, "category": "Grocery"},
+        {"name": "OceanSpray", "price": 18000, "category": "Juice"}
+    ]
+    
+}
