@@ -12,17 +12,22 @@ with open(path2json, "r") as file:
 
 products = prodInfo['products']
 
-# print(products)
+#print(products)
 
 # The search: We Will most definitely use the linear search
-
 def lin_search(myList, target):
     for i in range(len(myList)):
-        if myList[i] == target:
+        if myList[i]['name'] == target:
             return i
     return -1
-target = input("Search by name: ")
-myList = products
+search_term = input("Search by name: ")
 
-index = lin_search(products, target)
+index = lin_search(products, search_term)
 print(index)
+
+if index != -1:
+    print(f"Product '{search_term}' found at index {index}")
+    print("Product Details:")
+    print(products[index])
+else:
+    print(f"Product '{search_term}' not found.")
